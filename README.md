@@ -5,3 +5,4 @@
 * Data comes from [The United States Geological Survey's API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 * Maps are created using [Mapbox](https://www.mapbox.com/)
 * Web application is deployed here: https://mileslucey.github.io/usgs_leaflet/
+![](image/final_product.PNG)
