@@ -29,7 +29,6 @@ function circleColor(mag) {
   };
 }
 
-
 function createFeatures(earthquakeData) {
 
   var earthquakes = L.geoJSON(earthquakeData, {
@@ -101,7 +100,7 @@ function createMap(earthquakes) {
   // Pass in our baseMaps and overlayMaps
   // Add the layer control to the map
   L.control.layers(baseMaps, overlayMaps, {
-    collapsed: true
+    collapsed: false
   }).addTo(myMap);
 
   // Set up legend
